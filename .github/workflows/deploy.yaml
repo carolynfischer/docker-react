@@ -23,7 +23,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
           application_name: frontend-web
           environment_name: dev
-          existing_bucket_name: elasticbeanstalk-us-west-2-972906775075
-          region: us-west-2
+          existing_bucket_name: docker-bucket-051225
+          region: us-west-1
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
